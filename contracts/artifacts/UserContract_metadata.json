@@ -1,0 +1,162 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_roleManagerAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fullName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dateOfBirth",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum UserContract.Gender",
+						"name": "_gender",
+						"type": "uint8"
+					}
+				],
+				"name": "createUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMyUserData",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "fullName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "dateOfBirth",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum UserContract.Gender",
+								"name": "gender",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct UserContract.User",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddr",
+						"type": "address"
+					}
+				],
+				"name": "getOtherUserData",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "fullName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "dateOfBirth",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum UserContract.Gender",
+								"name": "gender",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct UserContract.User",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/User.sol": "UserContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"constants/Errors.const.sol": {
+			"keccak256": "0x8cbb8fbd062fd06c049af23dd7b66f30178ef05f750790cbd8b8dc1e6a44ea03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7dcc1fc34150077d2acd404aef87d44982b29661009cfec2c29c5ac189615820",
+				"dweb:/ipfs/QmeLsnrst9MBWdRwjMCJPK8vzWjp4ZyWhwbpfqea7K7Fgy"
+			]
+		},
+		"contracts/RoleManager.sol": {
+			"keccak256": "0x229660c81fffec66e71027f9f92b92103d88b070a4064fe6e7aabd738f6bff36",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://280c09904e7f62c09e2afb8a2b35e3b49152f5bf2da42768babb7f554b5e269f",
+				"dweb:/ipfs/QmR1WeuHn8Ym77ahBkc4QE4F54KpbMR8UKvggtqN7yjfTq"
+			]
+		},
+		"contracts/User.sol": {
+			"keccak256": "0x956abe6c0d752b01254e88988ca60779f43969eed4eb0a96ab8b9e9e5fe3c0ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b8d4a1acb72b29961b24e67ef69adb96a2da64e0d9889096815ad592edff3d49",
+				"dweb:/ipfs/QmPGrZnxxfX1WzbPAWMz8v86C22KD2PdMmnoMS6aCacDd9"
+			]
+		}
+	},
+	"version": 1
+}

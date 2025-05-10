@@ -4,9 +4,10 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const UserModule = buildModule("UserModule", (m) => {
-  const user = m.contract("UserContract", []);
+  const roleManager = m.contract("RoleManagerContract", []);
+  const user = m.contract("UserManagerContract", [roleManager]);
 
-  return { user };
+  return { roleManager, user };
 });
 
 export default UserModule;

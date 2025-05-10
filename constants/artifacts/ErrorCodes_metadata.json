@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ERROR_UNAUTHORIZED",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ERROR_USER_IS_CREATED",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ERROR_USER_IS_NOT_FOUND",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"constants/Errors.const.sol": "ErrorCodes"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"constants/Errors.const.sol": {
+			"keccak256": "0x8cbb8fbd062fd06c049af23dd7b66f30178ef05f750790cbd8b8dc1e6a44ea03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7dcc1fc34150077d2acd404aef87d44982b29661009cfec2c29c5ac189615820",
+				"dweb:/ipfs/QmeLsnrst9MBWdRwjMCJPK8vzWjp4ZyWhwbpfqea7K7Fgy"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getRole",
+				"outputs": [
+					{
+						"internalType": "enum RoleManagerContract.RoleType",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isCurrentUserAdmin",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddr",
+						"type": "address"
+					}
+				],
+				"name": "setAdminRole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddr",
+						"type": "address"
+					}
+				],
+				"name": "setOrganizationRole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddr",
+						"type": "address"
+					}
+				],
+				"name": "setStudentRole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RoleManager.sol": "RoleManagerContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"constants/Errors.const.sol": {
+			"keccak256": "0x8cbb8fbd062fd06c049af23dd7b66f30178ef05f750790cbd8b8dc1e6a44ea03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7dcc1fc34150077d2acd404aef87d44982b29661009cfec2c29c5ac189615820",
+				"dweb:/ipfs/QmeLsnrst9MBWdRwjMCJPK8vzWjp4ZyWhwbpfqea7K7Fgy"
+			]
+		},
+		"contracts/RoleManager.sol": {
+			"keccak256": "0xfb609c58e3ad9dc0cb72e1148c50c1bef9d1bebd7a71420d389610219cf43132",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f943faf1be1e3e48df0a2a8bf1d4f5c30b6f5b34b187c9b56fd5f16393a3033",
+				"dweb:/ipfs/QmXN4f1p4iJnVGd71sSy3S6PyuhNm6RPzbgwsMTC9wFMsQ"
+			]
+		}
+	},
+	"version": 1
+}
