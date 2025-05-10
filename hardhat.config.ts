@@ -8,7 +8,7 @@ const config: HardhatUserConfig = {
       chainId: 1337,
       url: "http://localhost:8548",
       accounts: [
-        "0xcbd3762211932c1378df0a49c803dd0b1c470bbdc0608f30d62fa1d4685bc47b"
+        "0xa49f8bcfb9353eb7ae6edab2a818bfb9e71853e18ab99de2893b355ac42ce442"
       ],
       gas: 0x1ffffffffffffe,
       gasPrice: 0
